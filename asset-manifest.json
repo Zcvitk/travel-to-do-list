@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Zcvitk/travel-to-do-list/static/css/main.10a2aefb.css",
-    "main.js": "/Zcvitk/travel-to-do-list/static/js/main.0b8d06b8.js",
-    "index.html": "/Zcvitk/travel-to-do-list/index.html",
-    "main.10a2aefb.css.map": "/Zcvitk/travel-to-do-list/static/css/main.10a2aefb.css.map",
-    "main.0b8d06b8.js.map": "/Zcvitk/travel-to-do-list/static/js/main.0b8d06b8.js.map"
+    "main.css": "/travel-to-do-list/static/css/main.10a2aefb.css",
+    "main.js": "/travel-to-do-list/static/js/main.1ec56898.js",
+    "index.html": "/travel-to-do-list/index.html",
+    "main.10a2aefb.css.map": "/travel-to-do-list/static/css/main.10a2aefb.css.map",
+    "main.1ec56898.js.map": "/travel-to-do-list/static/js/main.1ec56898.js.map"
   },
   "entrypoints": [
     "static/css/main.10a2aefb.css",
-    "static/js/main.0b8d06b8.js"
+    "static/js/main.1ec56898.js"
   ]
 }
