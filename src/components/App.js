@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import { useState } from "react";
 import Logo from "./Logo";
 import Form from "./Form";
@@ -32,16 +33,18 @@ export default function App() {
   }
 
   return (
-    <div className="app">
-      <Logo />
-      <Form onAddItems={handleAddItems} />
-      <PackingList
-        items={items}
-        onDeleteItem={handleDeleteItem}
-        onToggleItem={handleToggleItem}
-        onClearList={handleClearList}
-      />
-      <Stats items={items} />
-    </div>
+    <BrowserRouter basename="/travel-to-do-list">
+      <div className="app">
+        <Logo />
+        <Form onAddItems={handleAddItems} />
+        <PackingList
+          items={items}
+          onDeleteItem={handleDeleteItem}
+          onToggleItem={handleToggleItem}
+          onClearList={handleClearList}
+        />
+        <Stats items={items} />
+      </div>
+    </BrowserRouter>
   );
 }
