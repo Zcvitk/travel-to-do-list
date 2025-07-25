@@ -33,18 +33,16 @@ export default function App() {
   }
 
   return (
-    <BrowserRouter basename="/travel-to-do-list">
-      <div className="app">
-        <Logo />
-        <Form onAddItems={handleAddItems} />
-        <PackingList
-          items={items}
-          onDeleteItem={handleDeleteItem}
-          onToggleItem={handleToggleItem}
-          onClearList={handleClearList}
-        />
-        <Stats items={items} />
-      </div>
-    </BrowserRouter>
+    <div className="app">
+      <Logo />
+      <Form onAddItems={handleAddItems} />
+      <PackingList
+        items={items}
+        onDeleteItem={handleDeleteItem}
+        onToggleItem={handleToggleItem}
+        onClearList={handleClearList}
+      />
+      <Stats items={items} />
+    </div>
   );
 }
